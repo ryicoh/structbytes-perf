@@ -1,10 +1,10 @@
 # structbytes-perf
 
-I compared the performance of `unsafe` or `encoding/binary` in converting struct to btyes.
+I compared the performance of `unsafe` or `encoding/binary` in converting struct to bytes.
 
 # Result
 
-To use `unsafe` is faster than `unsafe`.
+To use `unsafe` is faster than `encoding/binary`.
 
 ```
 ryicoh@ryicohs-MacBook-Air structbytes-perf % go test -bench .
